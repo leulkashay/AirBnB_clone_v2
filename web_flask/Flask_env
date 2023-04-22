@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+export FLASk_APP="$1"
