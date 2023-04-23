@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Flask web framework
+""" Starts a Flask web application.
+The application listens on 0.0.0.0, port 5000.
+Routes:
+    /: Displays 'Hello HBNB!'.
+    /hbnb: Displays 'HBNB'.
 """
 
 from flask import Flask
@@ -17,4 +21,4 @@ def HBNB():
     return "HBNB"
 
 if __name__ =="__main__":
-    app.run()
+    app.run(host="0.0.0.0")
